@@ -1,0 +1,6 @@
+\subsection*{Evaluation}
+The primary metric was receiver operating characteristic area under the curve. Secondary metrics were precision-recall area under the curve, accuracy, sensitivity/recall, specificity, precision/positive predictive value, F1 score, confusion matrix counts, Brier score, expected calibration error, calibration intercept, and calibration slope. Reliability plots, ROC curves, precision-recall curves, and confusion matrices were generated from saved predictions.
+
+Calibration was assessed after validation-fitted calibration. The evidence lock does not contain pre-calibration Brier scores or expected calibration errors for all models; therefore, this manuscript does not claim that calibration improved these metrics. Instead, it reports the calibrated probability performance available from the completed experiments.
+
+External validation was performed by applying the selected training-fitted preprocessing and trained models to the PubMed 20k RCT external test split. The external data were never used for training, tuning, or threshold selection. Subgroup analysis used ethically neutral metadata available in the corpora: sentence-length quartiles. No demographic or patient-level fairness analysis was possible because the datasets do not contain such metadata.

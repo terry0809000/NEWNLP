@@ -1,0 +1,8 @@
+\section*{Limitations}
+The primary limitation is the label source. PubMed-PICO and PubMed RCT labels are derived from abstract structure or annotation conventions, and a section label is not always equivalent to sentence-level semantics. Some errors identified in the analysis likely reflect ambiguous or proxy labels rather than purely model failures.
+
+The external validation corpus is public and held out, but it remains in the biomedical abstract domain. It is not a manually adjudicated external clinical setting, and it does not prove deployment readiness. The NICTA-PIBOSO corpus was investigated as a manual external validation candidate but was not automatically available in usable form in this environment.
+
+The neural experiments were intentionally CPU-limited. Models used small embeddings, short maximum sequence lengths, and a stratified cap on neural training examples. Larger recurrent models, pretrained biomedical Transformers, or GPU-scale fine-tuning might perform differently, but they were outside the CPU-only scope of this project.
+
+Calibration uncertainty is another limitation. The project reports calibrated Brier score, expected calibration error, and reliability curves, but it did not retain pre-calibration Brier/ECE for all models and did not compute uncertainty intervals for calibration metrics. No demographic fairness analysis was possible because the public abstract corpora do not include patient-level demographic metadata.

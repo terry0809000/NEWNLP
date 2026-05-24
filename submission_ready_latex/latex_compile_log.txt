@@ -1,0 +1,600 @@
+$ C:\ProgramData\TinyTeX\bin\windows\latexmk.EXE -pdf -interaction=nonstopmode -halt-on-error main.tex
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LC_ALL = "C.UTF-8",
+	LC_CTYPE = "C",
+	LC_NUMERIC = "C",
+	LC_COLLATE = "C",
+	LC_TIME = (unset),
+	LC_MONETARY = (unset),
+	LANG = "C.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to the system default locale ("Chinese (Simplified)_China.936").
+Initial Win CP for (console input, console output, system): (CP936, CP65001, CP936)
+I changed them all to CP936
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 15 June 2025. Version 4.87.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/size10.clo)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/url/url.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/array.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{c:/ProgramData/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/01_introduction.tex) (./sections/02_related_work.tex
+
+LaTeX Warning: Citation `nadkarni2011nlp' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `zweigenbaum2007frontiers' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `kreimeyer2017nlpsystems' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `wang2018clinicalie' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `johnson2016mimic' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `uzuner2011i2b2' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `jin2018pico' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `dernoncourt2017pubmed' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `nye2018ebmnlp' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `kim2011ebm' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `amini2018nicta' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `jin2019pubmedqa' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `gurulingappa2012ade' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `cohen2006workload' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `tsafnat2014automation' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marshall2014risk' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marshall2015risk' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marshall2015robotreviewer' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `salton1988term' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `sebastiani2002text' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cortes1995svm' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `joachims1998text' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `fan2008liblinear' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `platt1999probabilistic' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `pedregosa2011sklearn' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `hochreiter1997lstm' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `schuster1997brnn' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `mikolov2013word2vec' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `kim2014cnn' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `peters2018elmo' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `vaswani2017attention' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `devlin2019bert' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `beltagy2019scibert' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `lee2020biobert' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `gu2021pubmedbert' on page 2 undefined on input line 10.
+
+[2]
+
+LaTeX Warning: Citation `brier1950verification' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `fawcett2006roc' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `davis2006prroc' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `saito2015pr' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `niculescu2005probabilities' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `zadrozny2002classifier' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `guo2017calibration' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `vancalster2016hierarchy' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `vancalster2019calibration' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `austin2019ici' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `collins2015tripod' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `moons2015tripod' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `luo2016mlguidelines' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `wilkinson2016fair' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `pineau2021reproducibility' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `mitchell2019modelcards' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `gebru2021datasheets' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `norgeot2020miclaim' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `rivera2020spiritai' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `liu2020consortai' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `vasey2022decideai' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `rajkomar2019medicine' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `kelly2019challenges' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `chen2017prediction' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `wiens2019roadmap' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `char2018ethical' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `nagendran2020clinicians' on page 3 undefined on input line 14.
+
+) (./sections/03_data.tex
+
+LaTeX Warning: Reference `tab:dataset' on page 3 undefined on input line 7.
+
+(./tables/table1_dataset.tex)) (./sections/04_methods.tex [3]) (./sections/05_evaluation.tex) (./sections/06_results.tex
+
+LaTeX Warning: Reference `tab:model-comparison' on page 4 undefined on input line 2.
+
+(./tables/table2_model_comparison.tex)
+
+LaTeX Warning: Reference `tab:calibration' on page 4 undefined on input line 8.
+
+[4] (./tables/table3_calibration.tex)
+
+LaTeX Warning: Reference `tab:external' on page 5 undefined on input line 12.
+
+
+LaTeX Warning: Reference `tab:subgroup' on page 5 undefined on input line 12.
+
+(./tables/table4_external_validation.tex
+Overfull \hbox (10.57993pt too wide) in paragraph at lines 5--18
+ [][] 
+) (./tables/table5_subgroup.tex) [5]) (./sections/07_discussion.tex) (./sections/08_limitations.tex [6] [7 <./figures/roc_curve_best_model.png> <./figures/pr_curve_best_model.png>]) (./sections/09_conclusion.tex) (./sections/10_declarations.tex [8 <./figures/calibration_curve_best_model.png>] [9 <./figures/confusion_matrix_best_model.png> <./figures/subgroup_performance.png>])
+No file main.bbl.
+[10] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)<c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (10 pages, 410605 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Missing bbl file 'main.bbl' in following:
+ No file main.bbl.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'main.bbl' for 'pdflatex'
+Create bibtex main
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Category 'other':
+  Rerun of 'bibtex main' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025)
+The top-level auxiliary file: main.aux
+The style file: plos2025.bst
+Database file #1: references.bib
+Warning--empty author and editor in amini2018nicta
+(There was 1 warning)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+  main.bbl
+  main.out
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/size10.clo)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/url/url.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/array.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(./main.out) (./main.out) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{c:/ProgramData/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/01_introduction.tex) (./sections/02_related_work.tex
+
+LaTeX Warning: Citation `nadkarni2011nlp' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `zweigenbaum2007frontiers' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `kreimeyer2017nlpsystems' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `wang2018clinicalie' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `johnson2016mimic' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `uzuner2011i2b2' on page 2 undefined on input line 2.
+
+
+LaTeX Warning: Citation `jin2018pico' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `dernoncourt2017pubmed' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `nye2018ebmnlp' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `kim2011ebm' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `amini2018nicta' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `jin2019pubmedqa' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `gurulingappa2012ade' on page 2 undefined on input line 4.
+
+
+LaTeX Warning: Citation `cohen2006workload' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `tsafnat2014automation' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marshall2014risk' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marshall2015risk' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `marshall2015robotreviewer' on page 2 undefined on input line 6.
+
+
+LaTeX Warning: Citation `salton1988term' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `sebastiani2002text' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cortes1995svm' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `joachims1998text' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `fan2008liblinear' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `platt1999probabilistic' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `pedregosa2011sklearn' on page 2 undefined on input line 8.
+
+
+LaTeX Warning: Citation `hochreiter1997lstm' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `schuster1997brnn' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `mikolov2013word2vec' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `kim2014cnn' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `peters2018elmo' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `vaswani2017attention' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `devlin2019bert' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `beltagy2019scibert' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `lee2020biobert' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation `gu2021pubmedbert' on page 2 undefined on input line 10.
+
+[2]
+
+LaTeX Warning: Citation `brier1950verification' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `fawcett2006roc' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `davis2006prroc' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `saito2015pr' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `niculescu2005probabilities' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `zadrozny2002classifier' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `guo2017calibration' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `vancalster2016hierarchy' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `vancalster2019calibration' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `austin2019ici' on page 3 undefined on input line 12.
+
+
+LaTeX Warning: Citation `collins2015tripod' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `moons2015tripod' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `luo2016mlguidelines' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `wilkinson2016fair' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `pineau2021reproducibility' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `mitchell2019modelcards' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `gebru2021datasheets' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `norgeot2020miclaim' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `rivera2020spiritai' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `liu2020consortai' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `vasey2022decideai' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `rajkomar2019medicine' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `kelly2019challenges' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `chen2017prediction' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `wiens2019roadmap' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `char2018ethical' on page 3 undefined on input line 14.
+
+
+LaTeX Warning: Citation `nagendran2020clinicians' on page 3 undefined on input line 14.
+
+) (./sections/03_data.tex (./tables/table1_dataset.tex)) (./sections/04_methods.tex [3]) (./sections/05_evaluation.tex) (./sections/06_results.tex (./tables/table2_model_comparison.tex) [4] (./tables/table3_calibration.tex) (./tables/table4_external_validation.tex
+Overfull \hbox (10.57993pt too wide) in paragraph at lines 5--18
+ [][] 
+) (./tables/table5_subgroup.tex) [5]) (./sections/07_discussion.tex) (./sections/08_limitations.tex [6] [7 <./figures/roc_curve_best_model.png> <./figures/pr_curve_best_model.png>]) (./sections/09_conclusion.tex) (./sections/10_declarations.tex [8 <./figures/calibration_curve_best_model.png>] [9 <./figures/confusion_matrix_best_model.png> <./figures/subgroup_performance.png>]) (./main.bbl [10] [11] [12] [13]) [14] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(see the transcript file for additional information)<c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (14 pages, 431370 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: References changed.
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'main.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: applying rule 'bibtex main'...
+Rule 'bibtex main':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 2 of rule 'bibtex main'
+------------
+------------
+Running 'bibtex  "main.aux"'
+------------
+This is BibTeX, Version 0.99d (TeX Live 2025)
+The top-level auxiliary file: main.aux
+The style file: plos2025.bst
+Database file #1: references.bib
+Warning--empty author and editor in amini2018nicta
+(There was 1 warning)
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  main.aux
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -interaction=nonstopmode -halt-on-error -recorder  "main.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/base/size10.clo)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/url/url.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/array.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def))) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (./main.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(./main.out) (./main.out) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg)) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd) (c:/ProgramData/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd) [1{c:/ProgramData/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./sections/01_introduction.tex) (./sections/02_related_work.tex [2]) (./sections/03_data.tex (./tables/table1_dataset.tex)) (./sections/04_methods.tex [3]) (./sections/05_evaluation.tex) (./sections/06_results.tex (./tables/table2_model_comparison.tex) [4] (./tables/table3_calibration.tex) (./tables/table4_external_validation.tex
+Overfull \hbox (10.57993pt too wide) in paragraph at lines 5--18
+ [][] 
+) (./tables/table5_subgroup.tex) [5]) (./sections/07_discussion.tex) (./sections/08_limitations.tex [6] [7 <./figures/roc_curve_best_model.png> <./figures/pr_curve_best_model.png>]) (./sections/09_conclusion.tex) (./sections/10_declarations.tex [8 <./figures/calibration_curve_best_model.png>] [9 <./figures/confusion_matrix_best_model.png> <./figures/subgroup_performance.png>]) (./main.bbl [10] [11] [12] [13]) [14] (./main.aux) )
+(see the transcript file for additional information)<c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/ProgramData/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (14 pages, 433939 bytes).
+Transcript written on main.log.
+Latexmk: Getting log file 'main.log'
+Latexmk: Examining 'main.fls'
+Latexmk: Examining 'main.log'
+Latexmk: Found input bbl file 'main.bbl'
+Latexmk: Log file says output to 'main.pdf'
+Latexmk: Using bibtex to make bibliography file(s).
+  ===Source file 'main.bbl' for 'pdflatex'
+Latexmk: Found bibliography file(s):
+  ./references.bib
+Latexmk: All targets (main.pdf) are up-to-date
+
+Reverting Windows console CPs to (in,out) = (936,65001)

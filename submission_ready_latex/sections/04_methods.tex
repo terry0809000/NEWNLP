@@ -1,0 +1,8 @@
+\subsection*{Models and calibration}
+The majority baseline predicted the empirical training-class prior. TF-IDF logistic regression used sparse word 1-2 grams and character 3-5 grams, with regularised logistic regression fitted on the full training split. TF-IDF linear support vector machine used the same feature family with a linear SVM and validation-fitted Platt calibration of decision scores. These baselines were included because sparse lexical models are strong, transparent, and practical under CPU-only constraints.
+
+Neural models used a training-only vocabulary, integer token sequences, and fixed-length padded sequences. The feed-forward neural model averaged trainable token embeddings before classification. The LSTM, BiLSTM, and BiLSTM with dropout used trainable embeddings and small hidden dimensions to keep runtime feasible on CPU. Neural models were trained on a stratified cap of 120,000 training sentences, evaluated on the full validation, test, and external splits, and used early stopping based on validation performance. This cap is a methodological constraint rather than an optimization claim.
+
+Classical models were calibrated with Platt sigmoid calibration fitted on validation scores. Neural models were calibrated with temperature scaling fitted on validation logits. Thresholds were optimized for validation F1 only. No preprocessing, calibration, threshold selection, or model selection used the internal test or external validation labels.
+
+Experiments were conducted in CPU-only mode on Windows 11 with Python 3.14 and CPU PyTorch. CUDA availability was explicitly checked and was false. Random seeds and training logs were saved with the run artifacts.

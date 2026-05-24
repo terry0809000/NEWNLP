@@ -1,0 +1,12 @@
+\section*{S3 Checklist. Reproducibility checklist}
+
+\begin{itemize}
+\item Data sources: PubMed-PICO Detection and PubMed 20k RCT public repositories.
+\item Split protocol: official PubMed-PICO train/validation/test preserved; PubMed 20k RCT official test used only as external validation.
+\item Preprocessing leakage controls: vectorizers and tokenizers fitted on training data only.
+\item Software versions: recorded in \texttt{project_outputs/01_environment/environment_check.txt} and installation log.
+\item Random seeds: main experiments used seed 42; seed files were saved under \texttt{runs/}.
+\item Reproduction commands: \texttt{scripts/01_download_data.py}, \texttt{scripts/02_prepare_data.py}, \texttt{scripts/03_data_audit.py}, \texttt{scripts/10_train_classical.py}, \texttt{scripts/11_train_neural.py}, \texttt{scripts/12_evaluate.py}, \texttt{scripts/13_calibrate.py}, \texttt{scripts/14_external_validation.py}, and manuscript-generation scripts.
+\item Output locations: metrics in \texttt{project_outputs/04_metrics}; tables in \texttt{project_outputs/06_tables}; figures in \texttt{project_outputs/05_figures}; predictions in \texttt{project_outputs/07_predictions} and \texttt{runs/}; manuscript files in \texttt{project_outputs/10_manuscript} and \texttt{latex/}.
+\item Hardware: CPU-only execution; CUDA unavailable and not attempted.
+\end{itemize}

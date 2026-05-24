@@ -1,0 +1,16 @@
+\begin{table}[!ht]
+\centering
+\caption{\textbf{Dataset characteristics.} The positive class is findings/conclusion. Text length summaries average the label-specific means and medians available in the locked evidence table.}
+\begin{tabular}{llllrrr}
+\hline
+Dataset & Split & Total & Positive & Other & Positive \% & Median words \\
+\hline
+PubMed-20k-RCT & external\_test & 30135 & 14284 & 15851 & 47.4 & 23.0 \\
+PubMed-PICO & test & 31270 & 13556 & 17714 & 43.4 & 21.5 \\
+PubMed-PICO & train & 257820 & 111377 & 146443 & 43.2 & 21.5 \\
+PubMed-PICO & validation & 30878 & 13386 & 17492 & 43.4 & 21.5 \\
+\hline
+\end{tabular}
+\begin{flushleft}\footnotesize PubMed-PICO train, validation, and test splits were used for primary modelling. PubMed-20k-RCT external\_test was used only for external validation.\end{flushleft}
+\label{tab:dataset}
+\end{table}

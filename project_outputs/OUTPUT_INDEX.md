@@ -1,0 +1,71 @@
+# Output Index
+
+- `00_project_selection\dataset_candidates.csv`: CSV table, predictions, metrics, or audit output.
+- `00_project_selection\dataset_search_report.md`: Markdown report or manuscript component.
+- `00_project_selection\research_proposal.md`: Markdown report or manuscript component.
+- `00_project_selection\selected_project_decision.md`: Markdown report or manuscript component.
+- `01_environment\environment_check.txt`: Plain-text log.
+- `01_environment\install_log.txt`: Plain-text log.
+- `02_data\data_audit.md`: Markdown report or manuscript component.
+- `02_data\data_manifest.json`: Structured JSON metadata, metrics, or manifest file.
+- `04_metrics\all_metrics.json`: Structured JSON metadata, metrics, or manifest file.
+- `04_metrics\auc_target_achieved.md`: Markdown report or manuscript component.
+- `04_metrics\external_validation_metrics.json`: Structured JSON metadata, metrics, or manifest file.
+- `05_figures\calibration_curve_best_model.png`: Generated figure.
+- `05_figures\class_distribution.png`: Generated figure.
+- `05_figures\confusion_matrix_best_model.png`: Generated figure.
+- `05_figures\pr_curve_best_model.png`: Generated figure.
+- `05_figures\roc_curve_best_model.png`: Generated figure.
+- `05_figures\subgroup_performance.png`: Generated figure.
+- `05_figures\text_length_distribution.png`: Generated figure.
+- `06_tables\calibration_results.csv`: CSV table, predictions, metrics, or audit output.
+- `06_tables\class_distribution.csv`: CSV table, predictions, metrics, or audit output.
+- `06_tables\external_validation_results.csv`: CSV table, predictions, metrics, or audit output.
+- `06_tables\main_results.csv`: CSV table, predictions, metrics, or audit output.
+- `06_tables\per_class_results.csv`: CSV table, predictions, metrics, or audit output.
+- `06_tables\subgroup_analysis.csv`: CSV table, predictions, metrics, or audit output.
+- `06_tables\text_length_summary.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\bilstm_dropout_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\bilstm_dropout_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\bilstm_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\bilstm_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\ffnn_avg_embeddings_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\ffnn_avg_embeddings_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\lstm_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\lstm_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\majority_baseline_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\majority_baseline_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\tfidf_linear_svm_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\tfidf_linear_svm_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\tfidf_logistic_regression_test.csv`: CSV table, predictions, metrics, or audit output.
+- `07_predictions\tfidf_logistic_regression_validation.csv`: CSV table, predictions, metrics, or audit output.
+- `08_literature\literature_review.md`: Markdown report or manuscript component.
+- `08_literature\literature_review_matrix.csv`: CSV table, predictions, metrics, or audit output.
+- `08_literature\literature_search_protocol.md`: Markdown report or manuscript component.
+- `08_literature\references.bib`: BibTeX bibliography.
+- `08_manuscript\error_analysis.md`: Markdown report or manuscript component.
+- `08_manuscript\external_validation_section.md`: Markdown report or manuscript component.
+- `09_journal_selection\journal_search_matrix.csv`: CSV table, predictions, metrics, or audit output.
+- `09_journal_selection\journal_selection_report.md`: Markdown report or manuscript component.
+- `09_journal_selection\selected_journal_decision.md`: Markdown report or manuscript component.
+- `10_manuscript\author_checklist.md`: Markdown report or manuscript component.
+- `10_manuscript\conclusion.md`: Markdown report or manuscript component.
+- `10_manuscript\cover_letter.md`: Markdown report or manuscript component.
+- `10_manuscript\data_code_availability.md`: Markdown report or manuscript component.
+- `10_manuscript\discussion.md`: Markdown report or manuscript component.
+- `10_manuscript\error_analysis.md`: Markdown report or manuscript component.
+- `10_manuscript\ethics_statement.md`: Markdown report or manuscript component.
+- `10_manuscript\experiments.md`: Markdown report or manuscript component.
+- `10_manuscript\external_validation_section.md`: Markdown report or manuscript component.
+- `10_manuscript\introduction.md`: Markdown report or manuscript component.
+- `10_manuscript\limitations.md`: Markdown report or manuscript component.
+- `10_manuscript\manuscript_full.md`: Markdown report or manuscript component.
+- `10_manuscript\methods.md`: Markdown report or manuscript component.
+- `10_manuscript\related_work.md`: Markdown report or manuscript component.
+- `10_manuscript\results.md`: Markdown report or manuscript component.
+- `10_manuscript\title_abstract_keywords.md`: Markdown report or manuscript component.
+- `11_latex_zip\healthcare_nlp_manuscript_latex.zip`: Final compressed manuscript/source artifact.
+- `12_failure_reports\nicta_piboso_not_usable.md`: Markdown report or manuscript component.
+- `FINAL_PROJECT_REPORT.md`: Executive final report summarizing project design, results, limitations, and next actions.
+- `OUTPUT_INDEX.md`: Index of created project outputs.
+- `run_manifest.json`: Structured JSON metadata, metrics, or manifest file.

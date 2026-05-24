@@ -1,0 +1,61 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[top=0.85in,left=2.75in,footskip=0.75in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{nameref,hyperref}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[aboveskip=1pt,labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=off]{caption}
+\renewcommand{\figurename}{Fig}
+\bibliographystyle{plos2025}
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+\raggedright
+\setlength{\parindent}{0.5cm}
+\textwidth 5.25in
+\textheight 8.75in
+\pagestyle{plain}
+\begin{document}
+\vspace*{0.2in}
+\begin{flushleft}
+{\Large\textbf{A CPU-feasible benchmark for calibrated biomedical abstract sentence classification with external validation}}
+\newline
+Terry Yu\textsuperscript{1*}
+\\
+\bigskip
+\textbf{1} [AFFILIATION TO BE COMPLETED BY AUTHOR]
+\\
+\bigskip
+* [CORRESPONDING AUTHOR EMAIL TO BE COMPLETED BY AUTHOR]
+\end{flushleft}
+
+\section*{Abstract}
+Biomedical abstract sentence classification can support evidence triage by helping researchers locate sentences that report findings or conclusions. This study evaluated whether CPU-feasible classical and recurrent neural text classifiers can identify findings/conclusion sentences in public biomedical abstracts with useful discrimination, transparent calibration assessment, and external validation. PubMed-PICO official train, validation, and test splits were used as the primary corpus, mapping R and C labels to the positive class. PubMed 20k RCT official test sentences were used only for external validation, mapping RESULTS and CONCLUSIONS to the positive class. Models included a majority baseline, TF-IDF logistic regression, TF-IDF linear support vector machine, feed-forward average embeddings, LSTM, BiLSTM, and BiLSTM with dropout. The validation-selected model was TF-IDF logistic regression. It achieved validation ROC AUC 0.977, internal test ROC AUC 0.976 (95\% bootstrap CI 0.975 to 0.977), PR AUC 0.967, F1 0.916, Brier score 0.055, and expected calibration error 0.011. External validation ROC AUC was 0.948, PR AUC 0.947, F1 0.879, Brier score 0.085, and expected calibration error 0.024. A strong sparse linear model met the empirical AUC target and performed at least as well as lightweight recurrent neural alternatives. External validation supported partial generalisation within biomedical abstracts but showed calibration degradation, so the model should be treated as a reproducible evidence-triage benchmark rather than a deployment-ready clinical system.
+
+\section*{Keywords}
+healthcare NLP; biomedical text classification; recurrent neural networks; calibration; external validation; reproducible machine learning; clinical decision support; model evaluation
+
+\clearpage
+\newgeometry{top=0.85in,left=1in,right=1in,footskip=0.75in}
+\input{sections/01_introduction.tex}
+\input{sections/02_related_work.tex}
+\input{sections/03_data.tex}
+\input{sections/04_methods.tex}
+\input{sections/05_evaluation.tex}
+\input{sections/06_results.tex}
+\input{sections/07_discussion.tex}
+\input{sections/08_limitations.tex}
+\input{sections/09_conclusion.tex}
+\input{sections/10_declarations.tex}
+
+\section*{Supporting information}
+S1 Text. Supplementary methods. See \texttt{supplementary/supplementary\_methods.tex}.
+
+S2 Text. Supplementary results. See \texttt{supplementary/supplementary\_results.tex}.
+
+S3 Checklist. Reproducibility checklist. See \texttt{supplementary/reproducibility\_checklist.tex}.
+
+\bibliography{references}
+\end{document}

@@ -1,0 +1,34 @@
+\begin{table}[!ht]
+\centering
+\caption{\textbf{Post-calibration probability metrics.} Pre-calibration Brier and ECE were not saved for all models and are therefore not reported.}
+\small
+\begin{tabular}{llrrrr}
+\hline
+Model & Split & Post Brier & Post ECE & Calibration intercept & Calibration slope \\
+\hline
+bilstm & validation & 0.059 & 0.010 & -0.171 & 1.006 \\
+bilstm & test & 0.060 & 0.010 & -0.161 & 0.997 \\
+bilstm & external & 0.100 & 0.042 & 0.075 & 0.737 \\
+bilstm\_dropout & validation & 0.070 & 0.016 & 0.174 & 1.011 \\
+bilstm\_dropout & test & 0.071 & 0.015 & 0.189 & 1.008 \\
+bilstm\_dropout & external & 0.120 & 0.060 & 0.414 & 0.756 \\
+ffnn\_avg\_embeddings & validation & 0.074 & 0.011 & -0.152 & 1.002 \\
+ffnn\_avg\_embeddings & test & 0.074 & 0.010 & -0.128 & 1.003 \\
+ffnn\_avg\_embeddings & external & 0.119 & 0.037 & 0.239 & 0.784 \\
+lstm & validation & 0.128 & 0.039 & 0.447 & 1.156 \\
+lstm & test & 0.129 & 0.039 & 0.435 & 1.148 \\
+lstm & external & 0.169 & 0.097 & 0.656 & 0.981 \\
+majority\_baseline & validation & 0.246 & 0.002 & -0.249 & 0.068 \\
+majority\_baseline & test & 0.246 & 0.002 & -0.249 & 0.068 \\
+majority\_baseline & external & 0.251 & 0.042 & -0.097 & 0.027 \\
+tfidf\_linear\_svm & validation & 0.055 & 0.011 & 0.000 & 1.001 \\
+tfidf\_linear\_svm & test & 0.057 & 0.011 & -0.009 & 0.985 \\
+tfidf\_linear\_svm & external & 0.088 & 0.025 & 0.024 & 0.763 \\
+tfidf\_logistic\_regression & validation & 0.054 & 0.012 & -0.000 & 1.000 \\
+tfidf\_logistic\_regression & test & 0.055 & 0.011 & -0.021 & 0.983 \\
+tfidf\_logistic\_regression & external & 0.085 & 0.024 & 0.007 & 0.770 \\
+\hline
+\end{tabular}
+\begin{flushleft}\footnotesize Calibration method: Platt sigmoid calibration for TF-IDF logistic regression and linear SVM; temperature scaling for neural models; none for the majority baseline. The evidence lock does not support any claim that calibration improved Brier score or ECE because pre-calibration metrics were not retained.\end{flushleft}
+\label{tab:calibration}
+\end{table}

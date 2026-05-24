@@ -1,0 +1,9 @@
+\section*{Materials and methods}
+\subsection*{Data}
+The primary dataset was PubMed-PICO Detection, downloaded from the public GitHub repository. The processed primary corpus contained 257,820 training sentences, 30,878 validation sentences, and 31,270 internal test sentences. Source labels R and C were mapped to the positive class, named findings/conclusion, while all other PubMed-PICO labels were mapped to the negative class. The text field was the sentence text extracted from biomedical abstracts.
+
+External validation used the official PubMed 20k RCT test split. This corpus contributed 30,135 external sentences. Labels RESULTS and CONCLUSIONS were mapped to the positive class, and all other section labels were mapped to the negative class. This mapping is label-compatible for the narrower rhetorical construct of result or conclusion detection, not for full PICO extraction.
+
+Official primary splits were preserved. Vectorizers, neural tokenizers, and vocabularies were fitted only on the primary training split. The validation split was used for model selection, calibration fitting, and threshold selection. The internal test split was evaluated after model selection, and the external validation split was never used for fitting, tuning, calibration, or threshold selection. Table~\ref{tab:dataset} summarises the dataset characteristics and class balance.
+
+\input{tables/table1_dataset.tex}

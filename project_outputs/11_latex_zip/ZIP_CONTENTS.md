@@ -1,0 +1,35 @@
+# ZIP Contents
+
+- `README_compile.md`: Compilation and upload guidance.
+- `SUBMISSION_CHECKLIST.md`: Submission-readiness checklist.
+- `cover_letter/cover_letter.tex`: Journal-specific cover letter source.
+- `figures/calibration_curve_best_model.png`: Generated figure copied from verified project outputs.
+- `figures/class_distribution.png`: Generated figure copied from verified project outputs.
+- `figures/confusion_matrix_best_model.png`: Generated figure copied from verified project outputs.
+- `figures/pr_curve_best_model.png`: Generated figure copied from verified project outputs.
+- `figures/roc_curve_best_model.png`: Generated figure copied from verified project outputs.
+- `figures/subgroup_performance.png`: Generated figure copied from verified project outputs.
+- `figures/text_length_distribution.png`: Generated figure copied from verified project outputs.
+- `latex_compile_log.txt`: Saved LaTeX compiler log.
+- `main.pdf`: Compiled manuscript PDF.
+- `main.tex`: Main compile-ready manuscript file.
+- `plos2025.bst`: Official PLOS BibTeX style file downloaded from PLOS template package.
+- `references.bib`: Bibliography used by BibTeX.
+- `sections/01_introduction.tex`: Manuscript section source file.
+- `sections/02_related_work.tex`: Manuscript section source file.
+- `sections/03_data.tex`: Manuscript section source file.
+- `sections/04_methods.tex`: Manuscript section source file.
+- `sections/05_evaluation.tex`: Manuscript section source file.
+- `sections/06_results.tex`: Manuscript section source file.
+- `sections/07_discussion.tex`: Manuscript section source file.
+- `sections/08_limitations.tex`: Manuscript section source file.
+- `sections/09_conclusion.tex`: Manuscript section source file.
+- `sections/10_declarations.tex`: Manuscript section source file.
+- `supplementary/reproducibility_checklist.tex`: Substantive supplementary material.
+- `supplementary/supplementary_methods.tex`: Substantive supplementary material.
+- `supplementary/supplementary_results.tex`: Substantive supplementary material.
+- `tables/table1_dataset.tex`: Journal-ready LaTeX table source.
+- `tables/table2_model_comparison.tex`: Journal-ready LaTeX table source.
+- `tables/table3_calibration.tex`: Journal-ready LaTeX table source.
+- `tables/table4_external_validation.tex`: Journal-ready LaTeX table source.
+- `tables/table5_subgroup.tex`: Journal-ready LaTeX table source.

@@ -1,0 +1,53 @@
+\section*{Results}
+The empirical AUC target was achieved. Table~\ref{tab:model-comparison} shows the model comparison. TF-IDF logistic regression was selected by validation ROC AUC, with validation ROC AUC 0.977, Brier score 0.054, and expected calibration error 0.012. On the internal test split, the same model achieved ROC AUC 0.976 (95\% bootstrap CI 0.975 to 0.977), PR AUC 0.967, accuracy 0.926, F1 0.916, sensitivity 0.935, specificity 0.918, Brier score 0.055, and expected calibration error 0.011. The internal-test confusion matrix for the selected threshold contained 12,681 true positives, 16,266 true negatives, 1,448 false positives, and 875 false negatives.
+
+\input{tables/table2_model_comparison.tex}
+
+The strongest neural model was the BiLSTM, with internal test ROC AUC 0.974, compared with 0.976 for TF-IDF logistic regression and 0.974 for TF-IDF linear SVM. The unidirectional LSTM was weaker, with internal test ROC AUC 0.891. This pattern indicates that lightweight recurrence did not provide a clear advantage over sparse lexical baselines under the CPU-feasible protocol.
+
+Table~\ref{tab:calibration} reports calibrated probability metrics. The selected model's internal calibration was strong by the saved metrics, with internal-test Brier score 0.055, expected calibration error 0.011, calibration intercept -0.021, and calibration slope 0.983. External calibration was weaker, with Brier score 0.085, expected calibration error 0.024, and calibration slope 0.770, consistent with corpus and label shift.
+
+\input{tables/table3_calibration.tex}
+
+External validation results are shown in Table~\ref{tab:external}. The selected model achieved external ROC AUC 0.948, PR AUC 0.947, accuracy 0.883, and F1 0.879. The external ROC AUC was lower than internal test ROC AUC by -0.028. Table~\ref{tab:subgroup} summarises sentence-length subgroup results. Longer sentences had higher observed AUC in both internal and external splits, but these results are descriptive and should not be interpreted as clinical subgroup performance.
+
+\input{tables/table4_external_validation.tex}
+
+\input{tables/table5_subgroup.tex}
+
+Error analysis found that false positives often involved method or outcome-definition sentences with result-like clinical endpoint language. False negatives often involved short or numerically dense findings sentences. High-confidence errors illustrated the limitation of section-heading-derived labels: some sentences can be semantically compatible with more than one rhetorical role even when the dataset assigns a single label.
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\linewidth]{figures/roc_curve_best_model.png}
+\caption{\textbf{Internal test ROC curve for the validation-selected model.} The selected model was TF-IDF logistic regression.}
+\label{fig:roc}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\linewidth]{figures/pr_curve_best_model.png}
+\caption{\textbf{Internal test precision-recall curve for the validation-selected model.}}
+\label{fig:pr}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\linewidth]{figures/calibration_curve_best_model.png}
+\caption{\textbf{Internal test calibration curve for the validation-selected model.}}
+\label{fig:calibration}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\linewidth]{figures/confusion_matrix_best_model.png}
+\caption{\textbf{Internal test confusion matrix for the validation-selected model.}}
+\label{fig:confusion}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.72\linewidth]{figures/subgroup_performance.png}
+\caption{\textbf{Sentence-length subgroup performance.} Subgroups are descriptive length quartiles.}
+\label{fig:subgroup}
+\end{figure}

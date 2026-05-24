@@ -1,0 +1,16 @@
+\section*{S1 Text. Supplementary methods}
+
+\subsection*{Preprocessing}
+Raw PubMed-PICO and PubMed 20k RCT files were downloaded into \texttt{data/raw}. Processed CSV files were written to \texttt{data/processed}. The raw files were not modified. PubMed-PICO source labels R and C were mapped to the positive class, and PubMed RCT source labels RESULTS and CONCLUSIONS were mapped to the positive class for external validation.
+
+\subsection*{Leakage controls}
+Official primary train, validation, and test splits were preserved. TF-IDF vectorizers and neural vocabularies were fitted only on the primary training split. Validation data were used for calibration fitting, threshold selection, and model selection. Test and external validation data were not used for fitting or tuning.
+
+\subsection*{Model hyperparameters}
+Classical models used TF-IDF word 1-2 grams and character 3-5 grams. Logistic regression used the liblinear solver with C=2.0. The linear SVM used C=1.0 with balanced class weights and validation-fitted Platt calibration. Neural models used maximum sequence length 64, vocabulary size up to 40,000, embedding dimension 64, hidden dimension 64, batch size 512, maximum 5 epochs, and early stopping patience 2. Neural training used a stratified cap of 120,000 training sentences.
+
+\subsection*{CPU environment and seeds}
+The environment check recorded Windows 11, Python 3.14.2, PyTorch 2.12.0+cpu, and CUDA unavailable. Random seed 42 was used for the main training scripts. The requested seeds 13 and 100 were not used in the completed run and should be considered future robustness work rather than completed evidence.
+
+\subsection*{Calibration and external validation}
+Classical models used validation-fitted Platt calibration. Neural models used validation-fitted temperature scaling. External validation used the PubMed 20k RCT official test split and was evaluated after model selection without refitting preprocessing, thresholds, or calibrators.

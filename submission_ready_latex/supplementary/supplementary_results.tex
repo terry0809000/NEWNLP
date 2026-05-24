@@ -1,0 +1,9 @@
+\section*{S2 Text. Supplementary results}
+
+All required model families were run: majority baseline, TF-IDF logistic regression, TF-IDF linear SVM, feed-forward average-embedding network, LSTM, BiLSTM, and BiLSTM with dropout. No CUDA or GPU-scale Transformer experiments were performed locally. Optional CNN-text modelling was not run because the required model set was completed and CPU runtime was prioritised.
+
+The validation-selected model was TF-IDF logistic regression. Its internal test confusion matrix at the validation-selected threshold contained 12,681 true positives, 16,266 true negatives, 1,448 false positives, and 875 false negatives. External validation contained 12,803 true positives, 13,804 true negatives, 2,047 false positives, and 1,481 false negatives.
+
+The calibration table in the main manuscript reports post-calibration Brier score, expected calibration error, calibration intercept, and calibration slope. The evidence lock does not support a before/after calibration-improvement claim because pre-calibration Brier/ECE values were not saved for every model.
+
+Sentence-length subgroup analysis was available for the selected model. It is descriptive only because length quartiles are not clinical subgroups and were not pre-specified as fairness strata.
